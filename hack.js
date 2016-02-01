@@ -59,9 +59,9 @@ var photoNavNext = "photo_nav_next", photoImage = "photo_image";
 //Variables
 var elementoFoto = null, urlFotoActual = "", urlFotoAnterior = "", intervalo = null;
 //Numero de foto para comenzar [Default = 0]
-var contador = 957;
+var contador = 0;
 //Velocidad de clickeo en foto en milisegundos, ajustar dependiendo de tu conexión. [Default = 3000ms]
-var velocidad = 10000;
+var velocidad = 3000;
 
 function intervalDescargarFoto() {
     try {
